@@ -1,0 +1,1419 @@
+/*
+::-moz-selection {
+	background:rgba(0,0,0,0);
+	}
+::selection { 
+	background:rgba(0,0,0,0);
+	} 	
+*/
+	
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif !important;
+    overflow-x: hidden;
+}
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+img, a {
+	border: none;
+	outline: none;
+}
+a {
+	text-decoration: none !important;
+    cursor: pointer !important;
+}
+ul{
+    margin-bottom: 0px !important;
+}
+ul, li {
+	list-style: none;
+}
+input, textarea, select {
+	outline: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px !important;
+}
+h2.center {
+	font-size: 45px;
+	color: #2a2d71;
+	text-align: center;
+	font-family: 'Gotham-Black';
+	margin: 0px auto !important;
+	width: 80%;
+	display: block;
+}
+h6.center_sm{
+    font-size: 17px;
+    color: #f7941d;
+    text-align: center;
+    font-family: 'Gotham-Black';
+    letter-spacing: 8px;
+}
+p {
+	color: #797979;
+	
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+}
+.alignleft {
+	float: left;
+	margin: 0 10px 15px 0;
+}
+.alignright {
+	float: right;
+	margin: 0 0px 15px 10px;
+}
+.aligncenter {
+	display: block;
+	margin: 15px auto;
+}
+.clear:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+.spacer10 {
+	height: 10px;
+}
+.spacer15 {
+	height: 15px;
+}
+.spacer20 {
+	height: 20px;
+}
+.spacer25 {
+	height: 25px;
+}
+.spacer30 {
+	height: 30px;
+}
+.spacer40 {
+	height: 40px;
+}
+.boxSizing {
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1415px !important;
+	margin: 0px auto;
+	position: relative;
+}
+.container:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+
+/*========================================
+============ Header Css Begin ===========
+==========================================*/
+        
+/*========================================
+============ Header Css Begin ===========
+==========================================*/
+        
+._header {
+    padding: 0px 0 0 0;
+}
+        
+.logo a {
+    color: #fff;
+}
+        
+ navbar {
+    padding: 0;
+}
+        
+.navbar-toggler-icon {
+    height: auto;
+}       
+.navbar-toggler-icon:focus,
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+        
+.navbar-toggler-icon .bar {
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+        
+.navbar-toggler-icon .bar:last-child {
+    margin-bottom: 0;
+}
+        
+.change .bar-1 {
+    -webkit-transform: rotate(-45deg) translate(-5px, 6px);
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+        
+.change .bar-2 {
+    opacity: 0;
+}
+        
+.change .bar-3 {
+    -webkit-transform: rotate(45deg) translate(-5px, -7px);
+    transform: rotate(45deg) translate(-5px, -7px);
+}
+        
+._mob-menu-hdr {
+    display: block;
+    padding: 10px 15px;
+    background: #055dde;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+        
+.navbar-collapse {
+    position: fixed;
+    background: #0067ff;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 300px;
+    z-index: 2;
+    display: block;
+    transition: transform 0.5s;
+    transform: translateX(-100%);
+}
+        
+.navbar-collapse.show {
+    transform: translateX(0%);
+}
+        
+.clickD {
+    background: url(images/down-arrow-white.png) no-repeat;
+    right: 30px;
+    background-size: 15px;
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    top: 8px;
+    position: absolute;
+    transition: transform 0.5s;
+}
+        
+.navbar .navbar-nav>li .clickD.toggled {
+    transform: rotate(180deg);
+}
+.left_nav{
+    margin-left: 58px !important;
+}
+        
+.sub-menu {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    z-index: 99;
+}
+        
+.sub-menu li a {
+    display: block;
+}
+        
+.sub-menu li:not(:last-child) a {
+    border-bottom: 1px dashed #ffffff5e;
+}
+        
+.clickD.toggled~.sub-menu,
+.toggled .sub-menu {
+    display: block;
+    top: 0;
+    background: #1750bb;
+}
+        
+._overHidden {
+    overflow: hidden;
+}
+        
+.navbar .navbar-nav>li {
+    padding: 0;
+    position: relative;
+    border-bottom: 1px dashed #ffffff5e;
+}
+        
+.navbar li a {
+    color: #fff;
+    display: block;
+    padding: 22px 38px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+}
+.navbar-nav{
+    justify-content: center;
+    margin: 0px auto;
+}
+.navbar li a.active{
+    color: #000001;
+    background-color: #fff;
+}
+.navbar li a:hover{
+    color: #000001;
+}
+        
+.navbar-toggler {
+    padding: 0;
+}
+.navbar{
+    padding: 0px !important;
+}
+.navbar-brand{
+    padding: 0px !important;
+}
+.top_nav{
+    margin-top: -40px;
+}
+.logo img{
+    width: 100%;
+}
+.collapse ul .login{
+    float: right;
+    padding-left: 130px;
+}
+.login ul li{
+    margin-right: 10px;
+}
+.login ul li:last-child{
+    margin-right: 0px;
+}
+.login ul li:last-child a{
+    border: 2px solid #f7941d !important;
+    color: #f7941d;
+    padding: 10px 15px;
+    letter-spacing: 1px;
+    width: 122px;
+}
+.login ul li{
+    float: left;
+}
+.login ul li a {
+	text-decoration: none;
+	text-align: center;
+	border: 2px solid #4c50a1;
+	padding: 10px 35px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	border-radius: 2px;
+	cursor: pointer;
+}
+.login ul li a:hover{
+    color: #fff ;
+}
+.login ul li:last-child a:hover{
+    color: #f7941d ;
+}
+.collapse:not(.show) {
+	display: block !important;
+}
+        
+@media (min-width: 992px) {
+._mob-menu-hdr {
+    display: none;
+}
+.navbar-collapse {
+    position: unset;
+    transform: translate(0);
+    background: transparent;
+    border: none;
+}
+.navbar-nav {
+    flex-direction: row;
+}
+.navbar .navbar-nav>li {
+    border: none;
+}
+.navbar-toggler {
+    display: none;
+}
+.navbar li.menu-item-has-children a {
+    padding-right: 30px;
+}
+.clickD {
+    right: 0;
+    background-size: 12px;
+}
+.sub-menu {
+    position: absolute;
+    display: block;
+    width: 200px;
+    background: #fff;
+    box-shadow: -7.794px 4.5px 20px rgba(17, 79, 160, 0.17);
+    top: 110%;
+    padding: 10px 0;
+    border-radius: 5px;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    visibility: hidden;
+    opacity: 0;
+}
+.sub-menu li {
+    list-style: none;
+}
+.sub-menu li a {
+    color: #000;
+}
+.menu-item-has-children .clickD.toggled ~ .sub-menu {
+    display: block;
+    top: 100%;
+    visibility: visible;
+    opacity: 1;
+    background: #fff;
+}
+._header._menu_fixed {
+    position: fied;
+    z-index: 9999 !important;
+    width: 100%;
+    background-color: ;
+    top: 0;
+}
+    
+}
+@media (min-width: 1025px){
+.sub-menu {
+    position: absolute;
+    display: block;
+    width: 200px;
+    background: #fff;
+    box-shadow: -7.794px 4.5px 20px rgba(17, 79, 160, 0.17);
+    top: 110%;
+    padding: 10px 0;
+    border-radius: 5px;
+    z-index: 99;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.4s;
+    -ms-transition: all 0.4s;
+}
+.sub-menu li {
+    list-style: none;
+}
+.sub-menu li a {
+    color: #000;
+}
+.menu-item-has-children:hover .sub-menu {
+    visibility: visible;
+    opacity: 1;
+    top: 100%;
+}
+    
+}
+/*========================================
+============ Header Css End  ===========
+==========================================*/
+    
+}
+/*========================================
+============ Header Css End  ===========
+==========================================*/
+
+/**********************************
+    Chevron Home Page css start
+**********************************/
+
+/**************************************
+    Top Logo & Contact sec start
+**************************************/
+
+.top_logo{
+    overflow: hidden;
+}
+.top_logo .logo{
+    overflow: hidden;
+}
+.top_logo .logo img{
+    width: auto;
+}
+.top_logo .top_contact{
+    width: 78%;
+    float: right;
+}
+.top_logo .top_contact ul{
+    
+}
+.top_logo .top_contact ul li{
+    float: left;
+    width: 42%;
+    padding-top: 44px;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 102px;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 36%;
+    float: right;
+}
+.top_logo .top_contact ul li .top_icon{
+    margin-right: 28px;
+    float: left;
+} 
+.top_logo .top_contact ul li .top_icon img{
+    
+}
+.top_logo .top_contact ul li p{
+    font-size: 18px;
+    color: #7577a2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.top_logo .top_contact ul li p span{
+    font-size: 16px;
+    color: #7577a2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    display: block;
+    margin-top: -4px;
+    text-transform: uppercase;
+}
+.top_logo .top_contact ul li p span.top_number{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0087ff;
+}
+
+
+/**************************************
+    Top Logo & Contact sec end
+**************************************/
+
+/**********************
+    Nav sec start
+**********************/
+
+.top_nav{
+    margin-top: 20px;
+    background-color: #0067ff;
+}
+.top_nav .NAV{
+    text-align: center;
+    
+}
+
+/**********************
+    Nav sec end
+**********************/
+
+/****************************
+    Top banner slider start
+****************************/
+
+.top_slider{
+    overflow: hidden;
+    max-height: 740px;
+}
+.top_slider .captionBox{
+    overflow: hidden;
+    text-align: left;
+    margin-top: -48px;
+}
+.top_slider .captionBox h1{
+    font-size: 65px;
+    color: #030303;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 90px;
+    width: 65%;
+    text-align: left;
+    padding-left: 140px;
+    
+}
+
+/****************************
+    Top banner slider end
+****************************/
+
+/*********************
+    About sec start
+*********************/
+
+.about{
+    overflow: hidden;
+    margin-top: 90px;
+}
+.about .about_laft_image{
+    overflow: hidden;
+    height: 100%;
+}
+.about .about_laft_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .about_right_content{
+    overflow: hidden;
+    padding-left: 60px;
+}
+.about .about_right_content h5{
+    font-size: 46px;
+    color: #0087ff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 65px;
+}
+.about .about_right_content h5 span{
+    font-size: 55px;
+    color: #000000;
+    display: block;
+}
+.about .about_right_content h6{
+    padding-top: 26px;
+    font-size: 35px;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.about .about_right_content p{
+    font-size: 17px;
+    color: #353535;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 35px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 40px;
+}
+.about .about_right_content .our_mission .hover_box_shadow{
+    margin-bottom: 26px;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+}
+.about .about_right_content .our_mission .hover_box_shadow.last{
+    margin-bottom: 0px;
+}
+/*.about .about_right_content .our_mission .hover_box_shadow:hover {
+	box-shadow: -2px 2px 13px -1px rgba(0,0,0,0.2);
+	padding: 10px;
+    transition: box-shadow .35s ease;
+}*/
+.about .about_right_content .our_mission .hover_box_shadow .leftiocn {
+	float: left;
+	margin-right: 25px;
+	width: 67px;
+	height: 67px;
+	border-radius: 100%;
+	background-color: #fff;
+	box-shadow: 0px 0 10px -6px rgba(0,0,0,0.8);
+	border: 3px solid #dbdbdb;
+}
+.about .about_right_content .our_mission .hover_box_shadow .leftiocn img {
+	width: auto;
+	padding: 10px 12px;
+}
+.about .about_right_content .our_mission .hover_box_shadow .leftiocn img.vison_second{
+    padding: 18px 10px;
+}
+.about .about_right_content .our_mission .hover_box_shadow .mission_content{
+    text-align: left;
+    overflow: hidden;
+}
+.about .about_right_content .our_mission .hover_box_shadow .mission_content p{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #0087ff;
+    padding-top: 0px;
+}
+.about .about_right_content .our_mission .hover_box_shadow .mission_content span{
+    font-size: 17px;
+    color: #353535;
+    line-height: 35px;
+}
+
+/*********************
+    About sec end
+*********************/
+
+/********************************************
+    Products that we are provide sec start
+*********************************************/
+
+.product{
+    overflow: hidden;
+    margin-top: 94px;
+    background-color: #e8f0f7;
+    padding-bottom: 68px;
+}
+.product h2{
+    padding-top: 90px;
+    text-align: center;
+    padding-bottom: 12px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #393939;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+.product span{
+    color: #0087ff;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.product p{
+    padding-top: 7px;
+    padding-bottom: 55px;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 35px;
+    margin: 0px auto !important;
+    width: 75%;
+}
+.product .outer_area{
+    border: 1px solid #cdcdcd;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.product .outer_area ul li{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.product .outer_area ul li:nth-child(2n){
+    background-color: #fafafc;
+    padding: 110px 0 92px;
+}
+.product .outer_area ul li img{
+    text-align: center;
+    margin: 0px auto;
+    display: flex;
+    padding: 60px 0;
+}
+.product .outer_area ul li img.bellows{
+    padding: 51px 0;
+}
+.product .outer_area ul li img.single{
+    padding: 15px 0;
+}
+.product .outer_area ul li p{
+    font-size: 16px;
+    color: #2a2a2b;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 18px;
+    text-align: center;
+    padding-top: 0px;
+}
+.product .outer_area ul li a{
+    margin: 0px auto;
+    display: table;
+    border-radius: 6px;
+    background-color: #0087ff;
+    color: #fff;
+    text-align: center;
+    padding: 11px 33px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: 0px;
+    box-shadow: 1px 0px 2px 1px rgba(17,40,239,0.7);
+}
+
+
+/********************************************
+    Products that we are provide sec end
+*********************************************/
+
+/*************************************************************
+    Why Chevron International is Your Best Choice sec start
+*************************************************************/
+
+.why{
+    overflow: hidden;
+    margin-top: 80px;
+    padding-bottom: 85px;
+}
+.why h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #393939;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.why p{
+    text-align: center;
+    color: #0087ff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 65px;
+}
+.why .custom_col{
+    padding-right: 30px;
+    padding-left: 0px;
+}
+.why .custom_col:first-child{
+    padding-left: 15px;
+}
+.why .custom_col:last-child{
+    padding-right: 15px;
+}
+.why .outer_border_area{
+    border: 1px solid #dadada;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 43px 0 52px 46px;
+    max-height: 368px;
+    box-shadow: 1px 2px 10px 1px rgba(0,0,0,0.1);
+}
+.why .outer_border_area .exp_icon{
+    float: left;
+    display: block;
+}
+.why .outer_border_area .exp_icon img{
+    width: auto;
+    padding-bottom: 23px;
+}
+.why .outer_border_area .exp_cap{
+    overflow: hidden;
+    float: left;
+}
+.why .outer_border_area .exp_cap h5{
+    padding-bottom: 25px;
+    font-size: 35px;
+    color: #000000;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.why .outer_border_area .exp_cap p{
+    font-size: 17px;
+    color: #525252;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+    text-align: left;
+    padding-bottom: 0px;
+    width: 92%;
+}
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 15px;
+}
+
+/*************************************************************
+    Why Chevron International is Your Best Choice sec end
+*************************************************************/
+
+/*************************
+    Brand sec start
+*************************/
+
+.brand{
+    overflow: hidden;
+    background-color: #0087ff;
+}
+.brand .brand_logo{
+    padding-left: 37px;
+}
+.brand .brand_logo ul{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.brand .brand_logo ul li{
+    overflow: hidden;
+    padding: 49px 0;
+    margin-right: 53px;
+}
+.brand .brand_logo ul li:last-child{
+    margin-right: 0px;
+}
+.brand .brand_logo ul li img{
+    width: auto;
+    height: auto;
+}
+.brand .brand_logo ul li:first-child{
+    width: 234px;
+}
+.brand .brand_logo ul li:nth-child(2n){
+    width: 200px;
+    margin-right: 52px;
+}
+.brand .brand_logo ul li:nth-child(3n){
+    width: 196px;
+    margin-right: 50px;
+}
+.brand .brand_logo ul li:nth-child(4n){
+    width: 218px;
+    margin-right: 50px;
+}
+.brand .brand_logo ul li:nth-child(5n){
+    width: 302px;
+}
+
+/*************************
+    Brand sec end
+*************************/
+
+/****************************
+    Testmonial sec start
+****************************/
+
+.testmonial{
+    overflow: hidden;
+    margin-top: 62px;
+}
+.testmonial h2{
+    padding-bottom: 23px;
+    color: #172633;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.testmonial p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #959494;
+    margin: 0px auto !important;
+    text-align: center;
+    display: block;
+    font-weight: 400;
+    line-height: 30px;
+    width: 63%;
+    padding-bottom: 65px;
+}
+.testmonial ul li .review{
+    width: 49%;
+    margin-right: 10px;
+    overflow: hidden;
+    float: left;
+    border-top: 5px solid #081edf;
+    border-radius: 2px;
+    padding-bottom: 70px;
+}
+.testmonial ul li .review:last-child{
+    margin-right: 0px;
+}
+.testmonial ul li .review p{
+    width: 90%;
+    margin: 0px auto !important;
+    font-size: 15px;
+    color: #616161;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    padding-top: 34px;
+    padding-bottom: 12px;
+}
+.testmonial ul li .review .clint{
+    margin: 0px auto;
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+    margin-bottom: 18px;
+}
+.testmonial ul li .review .clint img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.testmonial ul li .review span{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    color: #172b4e;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    padding-bottom: 6px;
+}
+.testmonial ul li .review span.small{
+    font-size: 15px;
+    color: #616161;
+    font-weight: 400;
+}
+.testmonial ul .slick-dots{
+    bottom: 10px;
+}
+.testmonial ul .slick-dots li{
+    width: 18px;
+    height: 18px;
+    background-color: #e2e3e4;
+    border-radius: 100%;
+    opacity: 0.4;
+}
+.testmonial ul .slick-dots li button::before{
+    content: "";
+    background-image: url(../images/testmonial_dot.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 18px;
+    height: 18px;
+}
+.slick-dots li button::before{
+    
+}
+.testmonial ul li.slick-active{
+    opacity: 1;
+}
+
+/****************************
+    Testmonial sec end
+****************************/
+
+/************************
+    Footer sec start
+************************/
+
+.footer{
+    overflow: hidden;
+    margin-top: 90px;
+    background-color: #2b3239;
+    padding-top: 47px;
+    padding-bottom: 85px;
+}
+.footer .nopadding{
+    padding: 0 0px;
+}
+.footer img{
+    width: auto;
+    padding-bottom: 34px;
+}
+.footer ul.footer_contact{
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.footer ul.footer_contact li{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.footer ul.footer_contact li{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.footer ul.footer_contact li i{
+    color: #081edf;
+    font-size: 11px;
+    padding-right: 20px;
+}
+.footer h5{
+    padding-top: 35px;
+    padding-bottom: 49px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.footer ul.quick:nth-child(2n){
+    padding-left: 94px;
+}
+.footer ul.quick:nth-child(3n){
+    padding-left: 68px;
+}
+.footer ul li a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    display: flex;
+}
+.footer ul li a i{
+    
+    padding-right: 10px;
+}
+.footer ul li a:hover{
+    color: #0085fd;
+}
+.footer ul.footer_social{
+    overflow: hidden;
+    padding-left: 115px;
+}
+.footer ul.footer_social li{
+    float: left;
+    padding-right: 10px;
+}
+.footer ul.footer_social li a{
+    font-size: 18px;
+    color: #fff;
+}
+.footer ul.footer_social li a:hover{
+    color: #0085fd;
+}
+
+
+/************************
+    Footer sec end
+************************/
+
+/*************************
+    Copyright sec start
+*************************/
+
+.copyright{
+    overflow: hidden;
+    background-color: #262d33;
+    padding: 18px 0;
+}
+.copyright p{
+    font-size: 14px;
+    color: #7a8187;
+    font-weight: 400;
+    text-align: left;
+}
+.copyright p span{
+    color: #fff;
+    text-transform: uppercase;
+}
+.copyright a{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    color: #7a8187;
+    font-weight: 400;
+}
+
+/*************************
+    Copyright sec end
+*************************/
+
+/**********************************
+    Chevron Home Page css end
+**********************************/
+
+/******************************************************
+    Chevron terms and conitions inner Page css start
+******************************************************/
+
+.top_banner{
+    overflow: hidden;
+    background-image: url(../images/terma_conditions_inner_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.top_banner h2{
+    padding-top: 175px;
+    padding-bottom: 270px;
+    font-size: 65px;
+    color: #030303;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.terms{
+    overflow: hidden;
+    margin-top: 144px;
+    padding-left: 84px;
+}
+.terms h5{
+    color: #293343;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+}
+.terms p{
+    padding-bottom: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626161;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    width: 95%;
+}
+.terms p:last-child{
+    padding-bottom: 120px;
+}
+
+/******************************************************
+    Chevron terms and conitions inner Page css end
+******************************************************/
+
+/************************************************
+    Chevron Disclaimer inner Page css start
+************************************************/
+
+.top_banner.disclaimer{
+    background-image: url(../images/Disclaimer_inner_bg.png);
+}
+.top_banner.disclaimer h2{
+    padding: 224px 0;
+}
+.terms .dis_number{
+    padding-left: 35px;
+    padding-top: 38px;
+}
+.terms .dis_number h5{
+    color: #3e3e3e;
+}
+.terms .dis_number p:last-child{
+    padding-bottom: 90px;
+}
+
+/************************************************
+    Chevron Disclaimer inner Page css end
+************************************************/
+
+/************************************************
+    Chevron Contact Us inner Page css start
+************************************************/
+
+.top_banner.contact_us_inner{
+    background-image: url(../images/contact_us_inner_bg.png);
+}
+._contactus{
+    overflow: hidden;
+    margin-top: 110px;
+}
+._contactus .outer_form_areia{
+    border-radius: 5px;
+    overflow: hidden;
+}
+._contactus .outer_form_areia .contact_form_bg{
+    background-image: url(../images/contactus_form_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 70px 130px 45px;
+}
+._contactus .outer_form_areia .contact_form_bg h5{
+    color: #000000;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-bottom: 55px;
+}
+._contactus .outer_form_areia .contact_form_bg ul li{
+    margin-bottom: 42px;
+    overflow: hidden;
+    font-size: 24px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+._contactus .outer_form_areia .contact_form_bg ul li img{
+    padding-right: 25px;
+    float: left;
+    padding-top: 5px;
+}
+._contactus .outer_form_areia .contact_form_bg ul li:last-child{
+    margin-bottom: 0px;
+}
+._contactus .input_fild{
+    overflow: hidden;
+    padding: 50px;
+}
+._contactus .input_fild h5{
+    font-size: 26px;
+    color: #323232;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 38px;
+    padding-bottom: 40px;
+}
+._contactus .input_fild input[type="text"]{
+    width: 100%;
+    background-color: #f8fafc;
+    font-size: 15px;
+    color: #a6a7a7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 20.5px 30px;
+    border: 0px;
+    outline: none;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+._contactus .input_fild input.custom_size_input[type="text"]{
+    width: 49%;
+    float: left;
+    margin-right: 18px;
+    overflow: hidden;
+}
+._contactus .input_fild input.custom_size_email[type="email"]{
+    float: right;
+    outline: none;
+    width: 47%;
+    overflow: hidden;
+    background-color: #f8fafc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 20.5px 30px;
+    font-size: 15px;
+    margin-bottom: 17px;
+    border: 0px;
+    color: #a6a7a7;
+    font-size: 15px;
+    border-radius: 2px;
+}
+._contactus .input_fild textarea{
+    width: 100%;
+    border-radius: 2px;
+    background-color: #f8fafc;
+    font-size: 15px;
+    color: #a6a7a7;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 14px 30px;
+    border: 0px;
+    outline: none;
+    margin-bottom: 40px;
+}
+._contactus button{
+    overflow: hidden;
+    color: #fff;
+    background-color: #0054ff;
+    padding: 12px 71px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 27px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+._contactus button.hvr-sweep-to-right::before{
+    background-color: #1587ff;
+}
+.brand.contactus_page_brand{
+    background: #efefef;
+    margin-top: 100px;
+}
+.footer.contactus_page_footer{
+    margin-top: 0px;
+}
+
+/************************************************
+    Chevron Contact Us inner Page css end
+************************************************/
+
+/*********************************************
+    Chevron About Us inner Page css start
+*********************************************/
+
+.top_banner.about_us_inner_bg{
+    background-image: url(../images/about_us_inner_bg.png);
+}
+.about_inner{
+    margin-top: 114px;
+    overflow: hidden;
+}
+.about_inner .left_about_content{
+    overflow: hidden;
+    position: relative;
+}
+.about_inner .left_about_content .top_about_heder{
+    border-left: 6px solid #0087ff;
+}
+.about_inner .left_about_content .top_about_heder span{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #0066ff;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.about_inner .left_about_content .top_about_heder h5{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #293343;
+    line-height: 48px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.about_inner.about .left_about_content .about_right_content{
+    padding-left: 0px;
+}
+.about_inner.about .left_about_content .about_right_content h6{
+    font-size: 28px;
+    color: #0087ff;
+    padding: 30px 0;
+}
+.about_inner.about .left_about_content .about_right_content .our_mission .hover_box_shadow .leftiocn{
+    border: 2px solid #1494ff;
+}
+.about_inner.about .left_about_content .about_right_content .our_mission{
+    position: relative;
+}
+.about_inner.about .left_about_content .about_right_content .our_mission::after {
+	position: absolute;
+	content: "";
+	background-image: url(../images/about_us_inner_effect.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	width: 2px;
+	height: 103px;
+	left: 5%;
+	top: 30.5%;
+}
+.about_inner.about .about_inner_right_image{
+    overflow: hidden;
+    padding-left: 68px;
+}
+.about_inner.about .about_inner_right_image img{
+    width: auto;
+}
+
+/*********************************************
+    Chevron About Us inner Page css end
+*********************************************/
+
+
+/*** go to top ***/
+
+.scrollTop {
+	position: fixed;
+	right: 2%;
+	bottom: 10px;
+	padding: 0px;
+	opacity: 0;
+	transition: all 0.4s ease-in-out 0s;
+}
+.scrollTop a {
+	font-size: 18px;
+	color: #fff;
+}
+
+
+/*** go to top ***/

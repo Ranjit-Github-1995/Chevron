@@ -1,0 +1,2243 @@
+/* Responsive nav css */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 1024px) {
+    .main_head .navbar-nav .clickD {
+        position: absolute;
+        right: -5px;
+        top: 50%;
+        width: 10px;
+        height: 5px;
+        border-top: 5px solid #fff;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        cursor: pointer;
+        display: block;
+        background-size: 10px;
+        z-index: 9999;
+        transform: translateY(-50%);
+    }
+    .main_head ul.navbar-nav li .clickD+.sub-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: absolute;
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991px) {
+    ._header.only_mobile{
+        float: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 767px) {
+    .main_head .navbar-nav .clickD {
+        top: 25px;
+    }
+    .main_head ul.navbar-nav li .clickD.toggled+.sub-menu {
+        position: relative;
+        top: 100%;
+    }
+}
+
+/* Responsive nav end */
+
+
+
+@media only screen and (min-width: 992px){
+    .top_nav .mobile_logo{
+        display: none;
+    }
+    .mobile_tabview{
+        display: none;
+    }
+    .about .laptop-view{
+        display: none;
+    }
+    .brand .brand_logo ul.tab_no_slider{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1192px){
+
+/************************************
+    Chevron Home Page Responsive start 
+************************************/
+
+/*********************************************
+    Top logo & Contact sec Responsive start
+**********************************************/
+
+.top_logo .top_contact{
+    width: 100%;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 0px;
+}
+.top_logo .top_contact ul li{
+    width: 50%;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 43%;
+}
+.top_logo .top_contact ul li{
+    padding-top: 55px;
+}
+
+/*********************************************
+    Top logo & Contact sec Responsive end
+**********************************************/
+
+/************************************
+    Top Banner slider sec Responsive start
+************************************/
+
+.top_slider{
+    max-height: 100%;
+    height: 450px;
+}
+.top_slider .captionBox h1{
+    padding-left: 60px;
+    width: 75%;
+    line-height: 80px;
+    font-size: 60px;
+}
+.top_slider .camera_prev{
+    left: 3%;
+}
+.top_slider .camera_next{
+    right: 4%;
+}
+.top_slider .camera_commands{
+    right: 8%;
+}
+
+/******************************************
+    Top Banner slider sec Responsive end
+******************************************/
+
+/*******************************
+    About sec Responsive start
+********************************/
+
+.about{
+    margin-top: 50px;
+}
+.about .about_right_content{
+    padding-left: 30px;
+}
+.about .about_right_content h5{
+    font-size: 40px;
+    line-height: 52px;
+}
+.about .about_right_content h5 span{
+    font-size: 45px;
+}
+.about .about_right_content h6{
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 20px;
+}
+
+/*******************************
+    About sec Responsive end
+*******************************/
+
+/******************************************************
+    Products that we are provide sec Responsive start
+*******************************************************/
+
+.product{
+    margin-top: 50px;
+    padding-bottom: 55px;
+}
+.product h2{
+    padding-top: 60px;
+}
+.product .outer_area{
+    max-height: 300px;
+}
+
+/*****************************************************
+    Products that we are provide sec Responsive end
+*****************************************************/
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive start
+************************************************************************/
+
+.why{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.why p{
+    padding-bottom: 50px;
+}
+.why .outer_border_area{
+    height: auto;
+    max-height: 100%;
+}
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 17px;
+}
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive end
+************************************************************************/
+
+/********************************
+    Brand sec Responsive start
+*********************************/
+
+.brand .brand_logo{
+    padding-left: 25px;
+}
+.brand .brand_logo ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/********************************
+    Brand sec Responsive end
+*********************************/
+
+/**************************************
+    Testmonial sec Responsive start
+**************************************/
+
+.testmonial{
+    margin-top: 50px;
+}
+    .testmonial p{
+        padding-bottom: 30px;
+    }
+
+/**************************************
+    Testmonial sec Responsive end
+**************************************/
+
+/********************************
+    Footer sec Responsive start
+********************************/
+    
+    .footer{
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer .nopadding{
+        padding: 0 15px;
+    }
+    .footer ul.footer_contact li{
+        display: flex;
+    }
+    .footer ul.footer_contact li i{
+        padding-top: 7px;
+    }
+    .footer h5{
+        text-align: left;
+    }
+    .footer ul.quick:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer ul.footer_social{
+        padding-left: 0px;
+    }
+    
+/********************************
+    Footer sec Responsive end
+********************************/
+
+/************************************
+    Chevron Home Page Responsive end 
+************************************/
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive start
+*************************************************************/
+    
+    .top_banner h2{
+        padding: 170px 0;
+    }
+    .terms{
+        margin-top: 70px;
+    }
+    .terms h5{
+        padding-bottom: 15px;
+    }
+    .terms p{
+        padding-bottom: 20px;
+    }
+    .terms p:last-child{
+        padding-bottom: 50px;
+    }
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive end
+*************************************************************/
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive start
+*****************************************************/
+    
+    .top_banner.disclaimer h2{
+        padding: 170px 0; 
+    }
+    .terms .dis_number{
+        padding-top: 20px;
+    }
+    .terms .dis_number p:last-child{
+        padding-bottom: 50px;
+    }
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive end
+*****************************************************/
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive start
+****************************************************/
+    
+    .top_banner.contact_us_inner h2{
+        padding: 110px 0;
+    }
+    ._contactus{
+        margin-top: 70px;
+    }
+    ._contactus .input_fild{
+        padding: 35px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg{
+        padding: 50px 50px 150px 40px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg h5{
+        padding-bottom: 30px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li{
+        font-size: 22px;
+    }
+    ._contactus .input_fild h5{
+        padding-bottom: 25px;
+    }
+    .brand.contactus_page_brand{
+        margin-top: 80px;
+    }
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive end
+****************************************************/
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    
+/************************************
+    Chevron Home Page Responsive start 
+************************************/
+
+/*********************************************
+    Top logo & Contact sec Responsive start
+**********************************************/
+
+.top_logo .top_contact{
+    width: 100%;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 0px;
+}
+.top_logo .top_contact ul li{
+    width: 50%;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 43%;
+}
+.top_logo .top_contact ul li{
+    padding-top: 10px;
+}
+.top_logo .top_contact ul li .top_icon img{
+        width: 70%;
+}
+.top_logo .top_contact ul li .top_icon{
+    margin-right: 18px;
+}
+.top_logo .top_contact ul li p{
+    font-size: 16px;
+}
+.top_logo .top_contact ul li p span.top_number{
+    font-size: 20px;
+}
+.top_logo .logo{
+    display: none;
+}
+.top_logo .onlytab{
+    display: none;
+}
+    .top_logo .tab_full_width{
+        min-width: 100%;
+        height: 70px;
+    }
+
+/*********************************************
+    Top logo & Contact sec Responsive end
+**********************************************/
+    
+/*********************************
+    Top nav sec Responsive start
+*********************************/
+    
+    .top_nav{
+        padding: 5px 0;
+    }
+    .top_nav .mobile_logo{
+        overflow: hidden;
+        float: left;
+    }
+    .top_nav .mobile_logo img{
+        width: 65%;
+    }
+    .top_nav .NAV{
+        margin-bottom: 7px;
+    }
+    .navbar li a{
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        margin-bottom: 0px;
+        padding: 13.5px 30px;
+        text-align: left;
+    }
+    .navbar li a{
+        padding: 13px 30px;
+    }
+    .navbar-collapse{
+        top: 157px;
+    }
+    .navbar-collapse{
+        top: 90px;
+    }
+    .navbar-toggler{
+        margin-top: 18px;
+    }
+    
+    
+/*********************************
+    Top nav sec Responsive end
+*********************************/
+
+/************************************
+    Top Banner slider sec Responsive start
+************************************/
+
+.top_slider{
+    max-height: 100%;
+    height: auto;
+}
+.top_slider .captionBox h1{
+    padding-left: 60px;
+    width: 75%;
+    line-height: 55px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.camera_pag{
+    bottom: 7%;
+}
+.top_slider .camera_prev{
+    left: 3%;
+    top: 45%;
+}
+.top_slider .camera_next{
+    right: 4%;
+    top: 45%;
+}
+.top_slider .camera_commands{
+    right: 8%;
+    top: 45%;
+}
+
+/******************************************
+    Top Banner slider sec Responsive end
+******************************************/
+
+/*******************************
+    About sec Responsive start
+********************************/
+
+.about{
+    margin-top: 30px;
+}
+    .about .tab_bottom_content{
+        display: none;
+    }
+    .about .mobile_tabview_image{
+        display: none;
+    }
+.about .about_right_content{
+    padding-left: 30px;
+    padding-top: 0px;
+}
+    .about .about_laft_image{
+        padding-top: 30px;
+    }
+.about .about_right_content h5{
+    font-size: 40px;
+    line-height: 52px;
+}
+.about .about_right_content h5 span{
+    font-size: 45px;
+}
+.about .about_right_content h6{
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 20px;
+}
+
+/*******************************
+    About sec Responsive end
+*******************************/
+
+/******************************************************
+    Products that we are provide sec Responsive start
+*******************************************************/
+
+.product{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.product h2{
+    padding-top: 60px;
+}
+.product .outer_area{
+    max-height: 300px;
+}
+.product .outer_area ul li img{
+    width: 88%;
+    height: 88%;
+    object-fit: cover;
+}
+.product p{
+    padding-bottom: 30px;
+}
+
+/*****************************************************
+    Products that we are provide sec Responsive end
+*****************************************************/
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive start
+************************************************************************/
+
+.why{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.why p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.why .outer_border_area{
+    height: auto;
+    height: 360px;
+    padding: 15px;
+}
+    .why .outer_border_area .exp_cap h5{
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 17px;
+}
+    .why h2{
+        font-size: 30px;
+    }
+    .why .outer_border_area .exp_icon img{
+        padding-bottom: 15px;
+    }
+    .why .outer_border_area .exp_cap p{
+        width: 100%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive end
+************************************************************************/
+
+/********************************
+    Brand sec Responsive start
+*********************************/
+
+.brand .brand_logo{
+    padding-left: 25px;
+}
+.brand .brand_logo ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+        .brand .brand_logo ul.tab_no_slider{
+        display: none;
+    }
+    .brand .brand_logo ul li{
+        margin-right: 25px !important;
+        padding: 23px 0;
+    }
+
+/********************************
+    Brand sec Responsive end
+*********************************/
+
+/**************************************
+    Testmonial sec Responsive start
+**************************************/
+
+.testmonial{
+    margin-top: 30px;
+}
+    .testmonial p{
+        padding-bottom: 30px;
+        width: 85%;
+    }
+    .testmonial h2{
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+    .testmonial ul li .review p{
+        width: 94%;
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+/**************************************
+    Testmonial sec Responsive end
+**************************************/
+
+/********************************
+    Footer sec Responsive start
+********************************/
+    
+    .footer{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer .nopadding{
+        padding: 0 15px;
+    }
+    .footer ul.footer_contact li{
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .footer ul li a{
+        padding-bottom: 15px;
+    }
+    .footer ul.footer_contact li i{
+        padding-top: 7px;
+    }
+    .footer img{
+        padding-bottom: 20px;
+    }
+    .footer h5{
+        text-align: left;
+        padding-top: 90px;
+        padding-bottom: 35px;
+        font-size: 22px;
+    }
+    .footer ul.quick:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer ul.footer_social{
+        padding-left: 0px;
+    }
+    .footer .tab{
+        padding-left: 0px;
+    }
+    
+/********************************
+    Footer sec Responsive end
+********************************/
+    
+/***********************************
+    Copyright sec Responsive start
+***********************************/
+    
+    .copyright a{
+        padding-top: 10px;
+    }
+    
+/***********************************
+    Copyright sec Responsive end
+***********************************/
+
+/************************************
+    Chevron Home Page Responsive end 
+************************************/
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive start
+*************************************************************/
+    
+    .top_banner h2{
+        padding: 115px 0;
+        font-size: 52px;
+    }
+    .terms{
+        margin-top: 40px;
+        padding-left: 35px;
+    }
+    .terms h5{
+        padding-bottom: 15px;
+    }
+    .terms p{
+        padding-bottom: 20px;
+    }
+    .terms p:last-child{
+        padding-bottom: 20px;
+    }
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive end
+*************************************************************/
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive start
+*****************************************************/
+    
+    .top_banner.disclaimer h2{
+        padding: 115px 0; 
+    }
+    .terms .dis_number{
+        padding-top: 5px;
+    }
+    .terms .dis_number p:last-child{
+        padding-bottom: 20px;
+    }
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive end
+*****************************************************/
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive start
+****************************************************/
+    
+    .top_banner.contact_us_inner h2{
+        padding: 110px 0;
+    }
+    ._contactus{
+        margin-top: 50px;
+    }
+    ._contactus .input_fild{
+        padding: 35px 15px 15px 15px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg{
+        padding: 40px 30px 150px 30px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg h5{
+        padding-bottom: 15px;
+        font-size: 28px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li img{
+        padding-right: 12px;
+        width: 15%;
+        float: none;
+        display: flex;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    ._contactus .input_fild h5{
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    ._contactus .input_fild input[type="text"]{
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild input.custom_size_input[type="text"]{
+        width: 100%;
+        margin-right: 0px;
+        float: none;
+    }
+    ._contactus .input_fild input.custom_size_email[type="email"]{
+        width: 100%;
+        float: none;
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild textarea{
+        padding: 14px 18px;
+        margin-bottom: 20px;
+    }
+    .brand.contactus_page_brand{
+        margin-top: 50px;
+    }
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive end
+****************************************************/
+    
+}
+
+@media only screen and (min-width: 641px) and (max-width: 767px){
+    
+/************************************
+    Chevron Home Page Responsive start 
+************************************/
+
+/*********************************************
+    Top logo & Contact sec Responsive start
+**********************************************/
+
+.top_logo .top_contact{
+    width: 100%;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 0px;
+}
+.top_logo .top_contact ul li{
+    width: 50%;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 43%;
+}
+.top_logo .top_contact ul li{
+    padding-top: 10px;
+}
+.top_logo .top_contact ul li .top_icon img{
+        width: 70%;
+}
+.top_logo .top_contact ul li .top_icon{
+    margin-right: 18px;
+}
+.top_logo .top_contact ul li p{
+    font-size: 16px;
+}
+    .top_logo .top_contact ul li p span.top_number{
+        font-size: 20px;
+    }
+    .top_logo .logo{
+        display: none;
+        justify-content: center;
+    }
+
+/*********************************************
+    Top logo & Contact sec Responsive end
+**********************************************/
+    
+/*********************************
+    Top nav sec Responsive start
+*********************************/
+    
+    .top_nav{
+        padding: 5px 0;
+        margin-top: 8px;
+    }
+    .top_nav .mobile_logo{
+        overflow: hidden;
+        float: left;
+    }
+    .top_nav .mobile_logo img{
+        width: 65%;
+    }
+    .navbar-toggler{
+        margin-top: 18px;
+    }
+    .top_nav .NAV{
+        margin-bottom: 7px;
+    }
+    .navbar li a{
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        margin-bottom: 0px;
+        padding: 13.5px 30px;
+        text-align: left;
+    }
+    .navbar li a{
+        padding: 13px 30px;
+    }
+    .navbar-collapse{
+        top: 78px;
+    }
+    
+    
+/*********************************
+    Top nav sec Responsive end
+*********************************/
+
+/************************************
+    Top Banner slider sec Responsive start
+************************************/
+
+.top_slider{
+    max-height: 100%;
+    height: auto;
+}
+.top_slider .captionBox h1{
+    padding-left: 60px;
+    width: 75%;
+    line-height: 48px;
+    font-size: 36px;
+    padding-top: 50px;
+}
+.camera_pag{
+    bottom: 7%;
+}
+.top_slider .camera_prev{
+    left: 3%;
+    top: 45%;
+}
+.top_slider .camera_next{
+    right: 4%;
+    top: 45%;
+}
+.top_slider .camera_commands{
+    right: 8%;
+    top: 45%;
+}
+
+/******************************************
+    Top Banner slider sec Responsive end
+******************************************/
+
+/*******************************
+    About sec Responsive start
+********************************/
+
+.about{
+    margin-top: 30px;
+}
+.about .tab_bottom_content{
+    display: none;
+}
+.about .mobile_tabview_image{
+    display: none;
+}
+.about .about_laft_image{
+    padding-top: 30px;
+    height: 380px;
+}
+.about .about_right_content{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.about .about_right_content h5{
+    font-size: 40px;
+    line-height: 52px;
+}
+.about .about_right_content h5 span{
+    font-size: 43px;
+}
+.about .about_right_content h6{
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 20px;
+}
+    .about .about_right_content .our_mission .hover_box_shadow .mission_content span{
+        line-height: 30px;
+    }
+
+/*******************************
+    About sec Responsive end
+*******************************/
+
+/******************************************************
+    Products that we are provide sec Responsive start
+*******************************************************/
+
+.product{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.product h2{
+    padding-top: 30px;
+    font-size: 38px;
+}
+.product .outer_area{
+    max-height: 100%;
+}
+.product .outer_area ul li img{
+    width: auto;
+}
+.product p{
+    padding-bottom: 30px;
+    width: 95%;
+}
+
+/*****************************************************
+    Products that we are provide sec Responsive end
+*****************************************************/
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive start
+************************************************************************/
+
+.why{
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+.why p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.why .outer_border_area{
+    height: auto;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+    .why .outer_border_area .exp_cap h5{
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 17px;
+}
+    .why h2{
+        font-size: 30px;
+    }
+    .why .outer_border_area .exp_icon img{
+        padding-bottom: 15px;
+    }
+    .why .outer_border_area .exp_cap p{
+        width: 88%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .why .custom_col{
+        padding: 0 15px;
+    }
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive end
+************************************************************************/
+
+/********************************
+    Brand sec Responsive start
+*********************************/
+
+.brand .brand_logo{
+    padding-left: 25px;
+}
+    .brand .brand_logo ul.tab_no_slider{
+        display: none;
+    }
+.brand .brand_logo ul li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    .brand .brand_logo ul li{
+        padding: 15px 0;
+        margin-right: 20px !important;
+    }
+    .brand .brand_logo ul li:last-child{
+        margin-right: 0px;
+    }
+
+/********************************
+    Brand sec Responsive end
+*********************************/
+
+/**************************************
+    Testmonial sec Responsive start
+**************************************/
+
+.testmonial{
+    margin-top: 30px;
+}
+    .testmonial p{
+        padding-bottom: 30px;
+        width: 85%;
+        line-height: 28px;
+    }
+    .testmonial h2{
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+    .testmonial ul li .review p{
+        width: 90%;
+        font-size: 14px;
+        line-height: 28px;
+        padding-top: 15px;
+    }
+    .testmonial ul li .review .clint{
+        width: 90px;
+        height: 90px;
+    }
+
+/**************************************
+    Testmonial sec Responsive end
+**************************************/
+
+/********************************
+    Footer sec Responsive start
+********************************/
+    
+    .footer{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer .nopadding{
+        padding: 0 15px;
+    }
+    .footer ul.footer_contact li{
+        display: flex;
+        margin-bottom: 12px;
+    }
+    .footer ul.footer_contact li i{
+        padding-top: 7px;
+    }
+    .footer h5{
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .footer ul.quick:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer ul.footer_social{
+        padding-left: 0px;
+    }
+    .footer .tab{
+        padding: 0 15px;
+    }
+    .footer ul li a{
+        padding-bottom: 12px;
+    }
+    
+/********************************
+    Footer sec Responsive end
+********************************/
+    
+/***********************************
+    Copyright sec Responsive start
+***********************************/
+    
+    .copyright a{
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    
+    
+/***********************************
+    Copyright sec Responsive end
+***********************************/
+
+/************************************
+    Chevron Home Page Responsive end 
+************************************/
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive start
+*************************************************************/
+    
+    .top_banner h2{
+        padding: 95px 0;
+        font-size: 46px;
+    }
+    .terms{
+        margin-top: 25px;
+        padding-left: 30px;
+    }
+    .terms h5{
+        padding-bottom: 15px;
+    }
+    .terms p{
+        padding-bottom: 20px;
+    }
+    .terms p:last-child{
+        padding-bottom: 20px;
+    }
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive end
+*************************************************************/
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive start
+*****************************************************/
+    
+    .top_banner.disclaimer h2{
+        padding: 95px 0; 
+    }
+    .terms .dis_number{
+        padding-top: 0px;
+    }
+    .terms .dis_number p:last-child{
+        padding-bottom: 20px;
+    }
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive end
+*****************************************************/
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive start
+****************************************************/
+    
+    .top_banner.contact_us_inner h2{
+        padding: 95px 0;
+    }
+    ._contactus{
+        margin-top: 30px;
+    }
+    ._contactus .input_fild{
+        padding: 35px 15px 15px 15px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg{
+        padding: 50px 30px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg h5{
+        padding-bottom: 25px;
+        font-size: 28px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li img{
+        padding-right: 12px;
+        width: auto;
+        float: left;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    ._contactus .input_fild h5{
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    ._contactus .input_fild input[type="text"]{
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild input.custom_size_input[type="text"]{
+        width: 100%;
+        margin-right: 0px;
+        float: none;
+    }
+    ._contactus .input_fild input.custom_size_email[type="email"]{
+        width: 100%;
+        float: none;
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild textarea{
+        padding: 14px 18px;
+        margin-bottom: 20px;
+    }
+    .brand.contactus_page_brand{
+        margin-top: 30px;
+    }
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive end
+****************************************************/
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px){
+    
+/************************************
+    Chevron Home Page Responsive start 
+************************************/
+
+/*********************************************
+    Top logo & Contact sec Responsive start
+**********************************************/
+
+.top_logo .top_contact{
+    width: 100%;
+    height: 108px;
+    display: none;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 0px;
+}
+.top_logo .top_contact ul li{
+    width: 50%;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 48%;
+}
+.top_logo .top_contact ul li{
+    padding-top: 18px;
+}
+.top_logo .top_contact ul li .top_icon img{
+        width: 70%;
+}
+.top_logo .top_contact ul li .top_icon{
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+.top_logo .top_contact ul li p{
+    font-size: 16px;
+}
+    .top_logo .top_contact ul li p span.top_number{
+        font-size: 20px;
+    }
+    .top_logo .logo{
+        display: none;
+        justify-content: center;
+    }
+
+/*********************************************
+    Top logo & Contact sec Responsive end
+**********************************************/
+    
+/*********************************
+    Top nav sec Responsive start
+*********************************/
+    
+    .top_nav{
+        padding: 5px 0;
+        margin-top: 0px;
+    }
+    .top_nav .mobile_logo{
+        overflow: hidden;
+        float: left;
+    }
+    .top_nav .mobile_logo img{
+        width: 65%;
+    }
+    .top_nav .NAV{
+        margin-bottom: 7px;
+    }
+    .navbar li a{
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        margin-bottom: 0px;
+        padding: 13.5px 30px;
+        text-align: left;
+    }
+    .navbar li a{
+        padding: 13px 30px;
+    }
+    .navbar-collapse{
+        top: 265px;
+    }
+    .navbar-collapse{
+        top: 113px;
+    }
+    .navbar-toggler{
+        margin-top: 18px;
+    }
+    
+    
+/*********************************
+    Top nav sec Responsive end
+*********************************/
+
+/************************************
+    Top Banner slider sec Responsive start
+************************************/
+
+.top_slider{
+    max-height: 100%;
+    height: auto;
+}
+.top_slider .captionBox h1 {
+	padding-left: 45px;
+	width: 100%;
+	line-height: 38px;
+	font-size: 28px;
+	padding-top: 33px;
+}
+.camera_pag{
+    bottom: 7%;
+}
+.top_slider .camera_prev{
+    left: 3%;
+    top: 45%;
+    display: none;
+}
+.top_slider .camera_next{
+    right: 4%;
+    top: 45%;
+    display: none;
+}
+.top_slider .camera_commands{
+    right: 8%;
+    top: 45%;
+    display: none;
+}
+
+/******************************************
+    Top Banner slider sec Responsive end
+******************************************/
+
+/*******************************
+    About sec Responsive start
+********************************/
+
+.about{
+    margin-top: 15px;
+}
+.about .tab_bottom_content{
+    display: none;
+}
+.about .mobile_tabview_image{
+    display: none;
+}
+.about .about_laft_image{
+    padding-top: 30px;
+    height: 380px;
+}
+.about .about_right_content{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.about .about_right_content h5{
+    font-size: 35px;
+    line-height: 52px;
+}
+.about .about_right_content h5 span{
+    font-size: 35px;
+}
+.about .about_right_content h6{
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 20px;
+}
+    .about .about_right_content .our_mission .hover_box_shadow .mission_content span{
+        line-height: 30px;
+    }
+
+/*******************************
+    About sec Responsive end
+*******************************/
+
+/******************************************************
+    Products that we are provide sec Responsive start
+*******************************************************/
+
+.product{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.product h2{
+    padding-top: 30px;
+    font-size: 33px;
+}
+.product .outer_area{
+    max-height: 100%;
+}
+.product .outer_area ul li img{
+    width: auto;
+}
+.product p{
+    padding-bottom: 30px;
+    width: 95%;
+}
+    .product span{
+        text-align: center;
+    }
+
+/*****************************************************
+    Products that we are provide sec Responsive end
+*****************************************************/
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive start
+************************************************************************/
+
+.why{
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+.why p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.why .outer_border_area{
+    height: auto;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+    .why .outer_border_area .exp_cap h5{
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 17px;
+}
+    .why h2{
+        font-size: 30px;
+    }
+    .why .outer_border_area .exp_icon img{
+        padding-bottom: 15px;
+    }
+    .why .outer_border_area .exp_cap p{
+        width: 88%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .why .custom_col{
+        padding: 0 15px;
+    }
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive end
+************************************************************************/
+
+/********************************
+    Brand sec Responsive start
+*********************************/
+
+.brand .brand_logo{
+    padding-left: 0px;
+}
+    .brand .brand_logo ul.mobile_brand_view{
+        display: none;
+    }
+.brand .brand_logo ul li img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+.brand .brand_logo ul li {
+	padding: 15px 0;
+	width: 100% !important;
+	display: flex !important;
+	justify-content: center;
+}
+
+/********************************
+    Brand sec Responsive end
+*********************************/
+
+/**************************************
+    Testmonial sec Responsive start
+**************************************/
+
+.testmonial{
+    margin-top: 30px;
+}
+    .testmonial p{
+        padding-bottom: 30px;
+        width: 85%;
+        line-height: 28px;
+    }
+    .testmonial h2{
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+    .testmonial ul li .review p{
+        width: 90%;
+        font-size: 14px;
+        line-height: 28px;
+        padding-top: 15px;
+    }
+    .testmonial ul li .review .clint{
+        width: 90px;
+        height: 90px;
+    }
+    .testmonial ul li .review{
+        width: 100%;
+    }
+    .testmonial ul li .review:nth-child(2n){
+        display: none;
+    }
+
+/**************************************
+    Testmonial sec Responsive end
+**************************************/
+
+/********************************
+    Footer sec Responsive start
+********************************/
+    
+    .footer{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer .nopadding{
+        padding: 0 15px;
+    }
+    .footer ul.footer_contact li{
+        display: flex;
+        margin-bottom: 12px;
+    }
+    .footer ul li a{
+        padding-bottom: 12px;
+    }
+    .footer ul.footer_contact li i{
+        padding-top: 7px;
+    }
+    .footer h5{
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .footer ul.quick:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer ul.footer_social{
+        padding-left: 0px;
+    }
+    .footer .tab{
+        padding: 0 15px;
+    }
+    
+/********************************
+    Footer sec Responsive end
+********************************/
+    
+/***********************************
+    Copyright sec Responsive start
+***********************************/
+    
+    .copyright a{
+        padding-top: 10px;
+        justify-content: center;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    
+    
+/***********************************
+    Copyright sec Responsive end
+***********************************/
+
+/************************************
+    Chevron Home Page Responsive end 
+************************************/
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive start
+*************************************************************/
+    
+    .top_banner h2{
+        padding: 75px 0;
+        font-size: 40px;
+    }
+    .terms{
+        margin-top: 15px;
+        padding-left: 0px;
+    }
+    .terms h5{
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .terms p{
+        padding-bottom: 20px;
+    }
+    .terms p:last-child{
+        padding-bottom: 0px;
+    }
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive end
+*************************************************************/
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive start
+*****************************************************/
+    
+    .top_banner.disclaimer h2{
+        padding: 75px 0; 
+    }
+    .terms .dis_number{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .terms .dis_number p:last-child{
+        padding-bottom: 20px;
+    }
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive end
+*****************************************************/
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive start
+****************************************************/
+    
+    .top_banner.contact_us_inner h2{
+        padding: 75px 0;
+    }
+    ._contactus{
+        margin-top: 15px;
+    }
+    ._contactus .input_fild{
+        padding: 15px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg{
+        padding: 50px 30px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg h5{
+        padding-bottom: 25px;
+        font-size: 28px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li img{
+        padding-right: 12px;
+        width: auto;
+        float: left;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    ._contactus .input_fild h5{
+        padding-bottom: 15px;
+        font-size: 22px;
+        line-height: 32px;
+    }
+    ._contactus .input_fild input[type="text"]{
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild input.custom_size_input[type="text"]{
+        width: 100%;
+        margin-right: 0px;
+        float: none;
+    }
+    ._contactus .input_fild input.custom_size_email[type="email"]{
+        width: 100%;
+        float: none;
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild textarea{
+        padding: 14px 18px;
+        margin-bottom: 20px;
+    }
+    .brand.contactus_page_brand{
+        margin-top: 15px;
+    }
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive end
+****************************************************/
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    
+/************************************
+    Chevron Home Page Responsive start 
+************************************/
+
+/*********************************************
+    Top logo & Contact sec Responsive start
+**********************************************/
+
+.top_logo .top_contact{
+    width: 100%;
+    height: 108px;
+    display: none;
+}
+.top_logo .top_contact ul li:first-child{
+    margin-left: 0px;
+}
+.top_logo .top_contact ul li{
+    width: 50%;
+}
+.top_logo .top_contact ul li:last-child{
+    width: 48%;
+}
+.top_logo .top_contact ul li{
+    padding-top: 18px;
+}
+.top_logo .top_contact ul li .top_icon img{
+        width: 70%;
+}
+.top_logo .top_contact ul li .top_icon{
+    margin-right: 18px;
+    margin-bottom: 30px;
+}
+.top_logo .top_contact ul li p{
+    font-size: 16px;
+}
+    .top_logo .top_contact ul li p span.top_number{
+        font-size: 20px;
+    }
+    .top_logo .logo{
+        display: none;
+        justify-content: center;
+    }
+
+/*********************************************
+    Top logo & Contact sec Responsive end
+**********************************************/
+    
+/*********************************
+    Top nav sec Responsive start
+*********************************/
+    
+    .top_nav{
+        padding: 5px 0;
+        margin-top: 0px;
+    }
+    .top_nav .NAV{
+        margin-bottom: 7px;
+    }
+    .navbar li a{
+        text-align: left;
+    }
+    ._mob-menu-hdr{
+        margin-bottom: 0px;
+        padding: 13.5px 30px;
+        text-align: left;
+    }
+    .navbar li a{
+        padding: 13px 30px;
+    }
+    .navbar-collapse{
+        top: 157px;
+        width: 250px;
+    }
+    .top_nav .mobile_logo{
+        overflow: hidden;
+        float: left;
+    }
+    .top_nav .mobile_logo img{
+        width: 65%;
+    }
+    .navbar-collapse{
+        top: 0px;
+    }
+    .navbar-toggler{
+        margin-top: 18px;
+    }
+    
+    
+/*********************************
+    Top nav sec Responsive end
+*********************************/
+
+/************************************
+    Top Banner slider sec Responsive start
+************************************/
+
+.top_slider{
+    max-height: 100%;
+    height: auto;
+}
+.top_slider .captionBox h1 {
+	padding-left: 0px;
+	width: 100%;
+	line-height: 32px;
+	font-size: 22px;
+	padding-top: 33px;
+}
+.camera_pag{
+    bottom: -2%;
+    right: 9%;
+}
+.top_slider .camera_prev{
+    left: 3%;
+    top: 45%;
+    display: none;
+}
+.top_slider .camera_next{
+    right: 4%;
+    top: 45%;
+    display: none;
+}
+.top_slider .camera_commands{
+    right: 8%;
+    top: 45%;
+    display: none;
+}
+
+/******************************************
+    Top Banner slider sec Responsive end
+******************************************/
+
+/*******************************
+    About sec Responsive start
+********************************/
+
+.about{
+    margin-top: 15px;
+}
+    .about .tab_bottom_content{
+    display: none;
+}
+.about .mobile_tabview_image{
+    display: none;
+}
+.about .about_laft_image{
+    padding-top: 15px;
+    height: 310px;
+}
+.about .about_right_content{
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.about .about_right_content h5{
+    font-size: 35px;
+    line-height: 40px;
+}
+.about .about_right_content h5 span{
+    font-size: 35px;
+}
+.about .about_right_content h6{
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+.about .about_right_content .our_mission{
+    padding-top: 20px;
+}
+    .about .about_right_content .our_mission .hover_box_shadow .mission_content span{
+        line-height: 30px;
+    }
+    .about .about_right_content p{
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .about .about_right_content .our_mission .hover_box_shadow .leftiocn{
+        float: none;
+        margin-bottom: 15px;
+    }
+
+/*******************************
+    About sec Responsive end
+*******************************/
+
+/******************************************************
+    Products that we are provide sec Responsive start
+*******************************************************/
+
+.product{
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.product h2{
+    padding-top: 30px;
+    font-size: 26px;
+}
+.product .outer_area{
+    height: auto;
+}
+.product .outer_area ul li img{
+    width: auto;
+    padding: 35px 0;
+}
+.product p{
+    padding-bottom: 30px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 28px;
+}
+    .product span{
+        text-align: center;
+        font-size: 18px;
+    }
+    .product .outer_area ul li{
+        width: 100%;
+    }
+    .product .outer_area ul li:nth-child(2n){
+        padding: 35px 0;
+    }
+
+/*****************************************************
+    Products that we are provide sec Responsive end
+*****************************************************/
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive start
+************************************************************************/
+
+.why{
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+.why p{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.why .outer_border_area{
+    height: auto;
+    height: auto;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+    .why .outer_border_area .exp_cap h5{
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+.why .outer_border_area .exp_cap p.quli{
+    font-size: 17px;
+}
+    .why h2{
+        font-size: 30px;
+    }
+    .why .outer_border_area .exp_icon img{
+        padding-bottom: 15px;
+    }
+    .why .outer_border_area .exp_cap p{
+        width: 88%;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .why .custom_col{
+        padding: 0 15px;
+    }
+
+/***********************************************************************
+    Why Chevron International is Your Best Choice sec Responsive end
+************************************************************************/
+
+/********************************
+    Brand sec Responsive start
+*********************************/
+
+.brand .brand_logo{
+    padding-left: 0px;
+}
+    .brand .brand_logo ul.mobile_brand_view{
+        display: none;
+    }
+.brand .brand_logo ul li img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+.brand .brand_logo ul li {
+	padding: 15px 0;
+	width: 100% !important;
+	display: flex !important;
+	justify-content: center;
+}
+
+/********************************
+    Brand sec Responsive end
+*********************************/
+
+/**************************************
+    Testmonial sec Responsive start
+**************************************/
+
+.testmonial{
+    margin-top: 30px;
+}
+    .testmonial p{
+        padding-bottom: 30px;
+        width: 85%;
+        line-height: 28px;
+    }
+    .testmonial h2{
+        font-size: 32px;
+        padding-bottom: 8px;
+    }
+    .testmonial ul li .review p{
+        width: 90%;
+        font-size: 14px;
+        line-height: 28px;
+        padding-top: 15px;
+    }
+    .testmonial ul li .review .clint{
+        width: 90px;
+        height: 90px;
+    }
+    .testmonial ul li .review{
+        width: 100%;
+    }
+    .testmonial ul li .review:nth-child(2n){
+        display: none;
+    }
+
+/**************************************
+    Testmonial sec Responsive end
+**************************************/
+
+/********************************
+    Footer sec Responsive start
+********************************/
+    
+    .footer{
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer .nopadding{
+        padding: 0 15px;
+    }
+    .footer ul.footer_contact li{
+        display: flex;
+        margin-bottom: 12px;
+    }
+    .footer ul li a{
+        padding-bottom: 12px;
+    }
+    .footer ul.footer_contact li i{
+        padding-top: 7px;
+    }
+    .footer h5{
+        text-align: left;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    .footer ul.quick:nth-child(2n){
+        padding-left: 0px;
+    }
+    .footer ul.footer_social{
+        padding-left: 0px;
+    }
+    .footer .tab{
+        padding: 0 15px;
+    }
+    
+/********************************
+    Footer sec Responsive end
+********************************/
+    
+/***********************************
+    Copyright sec Responsive start
+***********************************/
+    
+    .copyright a{
+        padding-top: 10px;
+        justify-content: center;
+        text-align: center;
+    }
+    .copyright p{
+        text-align: center;
+    }
+    
+    
+/***********************************
+    Copyright sec Responsive end
+***********************************/
+
+/************************************
+    Chevron Home Page Responsive end 
+************************************/
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive start
+*************************************************************/
+    
+    .top_banner h2{
+        padding: 60px 0;
+        font-size: 40px;
+    }
+    .terms{
+        margin-top: 15px;
+        padding-left: 0px;
+    }
+    .terms h5{
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+    .terms p{
+        padding-bottom: 20px;
+    }
+    .terms p:last-child{
+        padding-bottom: 0px;
+    }
+    
+/*************************************************************
+    Chevron terms and conitions inner Page Responsive end
+*************************************************************/
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive start
+*****************************************************/
+    
+    .top_banner.disclaimer h2{
+        padding: 60px 0; 
+    }
+    .terms .dis_number{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+    .terms .dis_number p:last-child{
+        padding-bottom: 0px;
+    }
+    
+/*****************************************************
+    Chevron Disclaimer inner Page Responsive end
+*****************************************************/
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive start
+****************************************************/
+    
+    .top_banner.contact_us_inner h2{
+        padding: 60px 0;
+    }
+    ._contactus{
+        margin-top: 15px;
+    }
+    ._contactus .input_fild{
+        padding: 15px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg{
+        padding: 50px 15px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg h5{
+        padding-bottom: 25px;
+        font-size: 24px;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li img{
+        padding-right: 12px;
+        width: 14%;
+        float: left;
+    }
+    ._contactus .outer_form_areia .contact_form_bg ul li{
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 16px;
+    }
+    ._contactus .input_fild h5{
+        padding-bottom: 15px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    ._contactus .input_fild input[type="text"]{
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild input.custom_size_input[type="text"]{
+        width: 100%;
+        margin-right: 0px;
+        float: none;
+    }
+    ._contactus .input_fild input.custom_size_email[type="email"]{
+        width: 100%;
+        float: none;
+        padding: 20.5px 18px;
+    }
+    ._contactus .input_fild textarea{
+        padding: 14px 18px;
+        margin-bottom: 20px;
+    }
+    .brand.contactus_page_brand{
+        margin-top: 15px;
+    }
+    ._contactus button{
+        padding: 12px 40px;
+    }
+    
+/****************************************************
+    Chevron Contact Us inner Page Responsive end
+****************************************************/
+    
+}
