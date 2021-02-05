@@ -50,7 +50,19 @@
 
 /* Responsive nav end */
 
+@media only screen and (min-width: 1193px) and (max-width: 1248px){
+    .about_inner.about .left_about_content .about_right_content .our_mission::after{
+        height: 139px;
+        left: 6%;
+        top: 25%;
+    }
+}
 
+@media only screen and (max-width: 991px){
+    .navbar li{
+        padding: 0px;
+    }
+}
 
 @media only screen and (min-width: 992px){
     .top_nav .mobile_logo{
@@ -64,6 +76,18 @@
     }
     .brand .brand_logo ul.tab_no_slider{
         display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1193px) and (max-width: 1414px){
+    
+    .Bear .product_tab ul.btn_pro_nav li{
+        width: 87px;
+        height: 87px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 25%;
     }
 }
 
@@ -338,6 +362,63 @@
 /****************************************************
     Chevron Contact Us inner Page Responsive end
 ****************************************************/
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive start
+******************************************************/
+    
+    .top_banner.about_us_inner_bg h2{
+        padding: 165px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content h6{
+        padding: 18px 0;
+    }
+    .about_inner.about .about_inner_right_image{
+        padding-left: 0px;
+    }
+    .about_inner.about .left_about_content .about_right_content .our_mission::after {
+	height: 171px;
+	left: 7%;
+	top: 18.5%;
+}
+    .why.why_bg{
+        margin-top: 50px;
+    }
+@media only screen and (min-width: 1035px) and (max-width: 1192px){
+    .about_inner.about .left_about_content .about_right_content .our_mission::after{
+        height: 135px;
+        top: 22%;
+    }
+}
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive end
+******************************************************/
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive start
+**********************************************************/
+    
+    .Bear{
+        margin-top: 70px;
+    }
+    .top_banner.product_detail_inner_bg h2{
+        padding: 170px 0;
+    }
+     .Bear .product_tab ul.btn_pro_nav li{
+        width: 15%;
+        height: 87px;
+    }
+    .product_tab ul li a img{
+        padding: 10px 5px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 25%;
+    }
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive end
+**********************************************************/
     
 }
 
@@ -790,6 +871,102 @@
 /****************************************************
     Chevron Contact Us inner Page Responsive end
 ****************************************************/
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive start
+******************************************************/
+    
+    .top_banner.about_us_inner_bg h2{
+        padding: 115px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content h6{
+        padding: 12px 0;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 30px;
+        line-height: 38px;
+        padding-left: 15px;
+    }
+    .about_inner.about .about_inner_right_image{
+        padding-left: 0px;
+    }
+    .about_inner.about .left_about_content .about_right_content .our_mission::after {
+	height: 243px;
+	left: 9%;
+	top: 14%;
+}
+    .why.why_bg{
+        margin-top: 50px;
+    }
+@media only screen and (min-width: 830px) and (max-width: 885px){
+    .about_inner.about .left_about_content .about_right_content .our_mission::after{
+        height: 208px;
+        top: 16%;
+    }
+    }
+@media only screen and (min-width: 886px) and (max-width: 991px){
+    .about_inner.about .left_about_content .about_right_content .our_mission::after{
+        height: 172px;
+        top: 18.3%;
+        left: 8%;
+    }
+}
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive end
+******************************************************/
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive start
+**********************************************************/
+    
+    .Bear{
+        margin-top: 50px;
+    }
+    .top_banner.product_detail_inner_bg h2{
+        padding: 115px 0;
+    }
+    .Bear .product_tab .big_product img{
+        width: 87%;
+    }
+    .Bear .product_price h5{
+        padding-bottom: 12px;
+    }
+    .Bear .product_price p{
+        font-size: 17px;
+        line-height: 32px;
+    }
+     .Bear .product_tab ul.btn_pro_nav li{
+        width: 14%;
+        height: auto;
+    }
+    .product_tab ul li a img {
+        padding: 6px 0px;
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 25%;
+    }
+    .product_des_tab ul li a{
+        font-size: 15px;
+    }
+    .Bear .product_des .product_des_big_tab{
+        margin-top: 30px;
+    }
+    .Bear .product_des .product_des_big_tab .left_des_info p{
+        padding-bottom: 15px;
+    }
+    .Bear .product_des .product_des_big_tab .right_des_pro_pic img{
+        margin: 0px auto;
+        padding-bottom: 0px;
+        width: 90%;
+    }
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive end
+**********************************************************/
     
 }
 
@@ -1253,6 +1430,103 @@
     Chevron Contact Us inner Page Responsive end
 ****************************************************/
     
+/*****************************************************
+    Chevron About Us inner Page Responsive start
+******************************************************/
+    
+    .top_banner.about_us_inner_bg h2{
+        padding: 95px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content h6{
+        padding: 12px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content{
+        padding-top: 10px;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 30px;
+        line-height: 38px;
+        padding-left: 15px;
+    }
+    .about_inner.about .about_inner_right_image{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .about_inner.about .left_about_content .about_right_content .our_mission::after {
+	height: 243px;
+	left: 9%;
+	top: 14%;
+    display: none;
+}
+    .why.why_bg{
+        margin-top: 30px;
+    }
+    .why.why_bg h2{
+        padding-top: 35px;
+    }
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive end
+******************************************************/
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive start
+**********************************************************/
+    
+    .Bear{
+        margin-top: 30px;
+    }
+    .top_banner.product_detail_inner_bg h2{
+        padding: 95px 0;
+    }
+    .Bear .product_tab .big_product img{
+        width: auto;
+    }
+    .Bear .product_price h5{
+        padding-bottom: 3px;
+    }
+    .Bear .product_price p{
+        font-size: 17px;
+        line-height: 32px;
+    }
+     .Bear .product_tab ul.btn_pro_nav li{
+        width: 15%;
+        height: 110px;
+    }
+    .product_tab ul li a img {
+        padding: 22px 16px;
+        width: auto;
+    }
+    .Bear .product_price{
+        margin-top: 30px;
+    }
+    .Bear .product_des{
+        padding-top: 20px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 25%;
+    }
+    .product_des_tab ul li a{
+        font-size: 13px;
+        padding: 17px 0;
+    }
+    .Bear .product_des .product_des_big_tab{
+        margin-top: 30px;
+    }
+    .Bear .product_des .product_des_big_tab .left_des_info p{
+        padding-bottom: 15px;
+    }
+    .Bear .product_des .product_des_big_tab .right_des_pro_pic img{
+        margin: 0px auto;
+        padding-bottom: 0px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive end
+**********************************************************/
+    
 }
 
 @media only screen and (min-width: 481px) and (max-width: 640px){
@@ -1334,10 +1608,7 @@
         padding: 13px 30px;
     }
     .navbar-collapse{
-        top: 265px;
-    }
-    .navbar-collapse{
-        top: 113px;
+        top: 0px;
     }
     .navbar-toggler{
         margin-top: 18px;
@@ -1733,6 +2004,104 @@
 /****************************************************
     Chevron Contact Us inner Page Responsive end
 ****************************************************/
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive start
+******************************************************/
+    
+    .top_banner.about_us_inner_bg h2{
+        padding: 75px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content h6{
+        padding: 12px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content{
+        padding-top: 10px;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 30px;
+        line-height: 38px;
+        padding-left: 15px;
+    }
+    .about_inner.about .about_inner_right_image{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .about_inner.about .left_about_content .about_right_content .our_mission::after {
+	height: 243px;
+	left: 9%;
+	top: 14%;
+    display: none;
+}
+    .why.why_bg{
+        margin-top: 30px;
+    }
+    .why.why_bg h2{
+        padding-top: 35px;
+    }
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive end
+******************************************************/
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive start
+**********************************************************/
+    
+    .Bear{
+        margin-top: 30px;
+    }
+    .top_banner.product_detail_inner_bg h2{
+        padding: 75px 0;
+    }
+    .Bear .product_tab .big_product img{
+        width: auto;
+        padding-top: 0px;
+    }
+    .Bear .product_price h5{
+        padding-bottom: 3px;
+    }
+    .Bear .product_price p{
+        font-size: 17px;
+        line-height: 32px;
+    }
+     .Bear .product_tab ul.btn_pro_nav li{
+        width: 15%;
+        height: auto;
+    }
+    .product_tab ul li a img {
+        padding: 14px 11px;
+        width: 100%;
+    }
+    .Bear .product_price{
+        padding-top: 20px;
+    }
+    .Bear .product_des{
+        padding-top: 20px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 25%;
+    }
+    .product_des_tab ul li a{
+        font-size: 11px;
+        padding: 17px 0;
+    }
+    .Bear .product_des .product_des_big_tab{
+        margin-top: 20px;
+    }
+    .Bear .product_des .product_des_big_tab .left_des_info p{
+        padding-bottom: 15px;
+    }
+    .Bear .product_des .product_des_big_tab .right_des_pro_pic img{
+        margin: 0px auto;
+        padding-bottom: 0px;
+        width: auto;
+        padding-bottom: 30px;
+    }
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive end
+**********************************************************/
     
 }
 
@@ -2239,5 +2608,118 @@
 /****************************************************
     Chevron Contact Us inner Page Responsive end
 ****************************************************/
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive start
+******************************************************/
+    
+    .top_banner.about_us_inner_bg h2{
+        padding: 60px 0;
+    }
+    .about_inner .left_about_content .top_about_heder{
+        border: 0px;
+    }
+    .about_inner .left_about_content .top_about_heder span{
+        padding-left: 0px;
+    }
+    .about_inner.about .left_about_content .about_right_content h6{
+        padding: 12px 0;
+    }
+    .about_inner.about .left_about_content .about_right_content{
+        padding-top: 0px;
+    }
+    .about_inner .left_about_content .top_about_heder h5{
+        font-size: 30px;
+        line-height: 38px;
+        padding-left: 0px;
+    }
+    .about_inner.about .about_inner_right_image{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .about_inner.about .left_about_content .about_right_content .our_mission::after {
+	height: 243px;
+	left: 9%;
+	top: 14%;
+    display: none;
+}
+    .why.why_bg{
+        margin-top: 30px;
+    }
+    .why.why_bg h2{
+        padding-top: 35px;
+    }
+    
+/*****************************************************
+    Chevron About Us inner Page Responsive end
+******************************************************/
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive start
+**********************************************************/
+    
+    .Bear{
+        margin-top: 30px;
+    }
+    .top_banner.product_detail_inner_bg h2{
+        padding: 60px 0;
+    }
+    .Bear .product_tab .big_product img{
+        width: 100%;
+        padding-top: 0px;
+    }
+    .Bear .product_price h5{
+        padding-bottom: 3px;
+        font-size: 30px;
+    }
+    .Bear .product_price span{
+        font-size: 30px;
+    }
+    .Bear .product_price p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+     .Bear .product_tab ul.btn_pro_nav li{
+        width: 14%;
+        height: auto;
+    }
+    .product_tab ul li a img {
+        padding: 10px 11px;
+        width: 100%;
+    }
+    .Bear .product_price{
+        padding-top: 20px;
+    }
+    .Bear .product_des{
+        padding-top: 20px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li{
+        width: 100%;
+        float: none;
+        margin-bottom: 15px;
+    }
+    .Bear .product_des .product_des_tab ul.descr li:last-child{
+        margin-bottom: 0px;
+    }
+    .product_des_tab ul li a{
+        font-size: 15px;
+        padding: 16px 0;
+    }
+    .Bear .product_des .product_des_big_tab{
+        margin-top: 20px;
+    }
+    .Bear .product_des .product_des_big_tab .left_des_info p{
+        padding-bottom: 15px;
+    }
+    .Bear .product_des .product_des_big_tab .right_des_pro_pic img{
+        margin: 0px auto;
+        padding-bottom: 0px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+/*********************************************************
+    Chevron Product Details inner Page Responsive end
+**********************************************************/
     
 }

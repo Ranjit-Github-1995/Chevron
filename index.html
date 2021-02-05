@@ -67,7 +67,7 @@
     <div class="top_nav">
         <div class="container">
             <div class="mobile_logo">
-                <img src="images/logo_new.png" alt="logo">
+                <a href="index.html"><img src="images/logo_new.png" alt="logo"></a>
             </div>
             <div class="NAV">
             <!-- Begin: Header -->
@@ -85,12 +85,12 @@
                             <div class="_mob-menu-hdr">Menu</div>
                             <ul class="navbar-nav">
                                 <li class="current-menu-item"><a class="active" href="index.html">Home</a></li>
-                                <li><a href="about_us_inner.html">about us</a></li>
+                                <li><a href="about_us_inner_page.html">about us</a></li>
                                 <li>
-                                    <a href="packages_inner.html">Our Products</a>
+                                    <a href="#">Our Products</a>
                                 </li>
                                 <li>
-                                    <a href="contact_us_inner.html">Contact Us</a>
+                                    <a href="contact_us_inner_page.html">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -581,7 +581,7 @@
                 if (!$(e.target).closest('.navbar-collapse').length &&
                     !$(e.target).is('.navbar-collapse') &&
                     menu_opened === true) {
-                    $('.navbar-collapse').collapse('toggle');
+                    $('.navbar-collapse').removeClass('show');
                     $('.navbar-toggler').removeClass('change');
                     $('body').removeClass('_overHidden');
                 }

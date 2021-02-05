@@ -246,15 +246,17 @@ p {
 }
         
 .navbar .navbar-nav>li {
-    padding: 0;
     position: relative;
     border-bottom: 1px dashed #ffffff5e;
 }
-        
+
+.navbar li{
+    padding: 0 25px;
+}
 .navbar li a {
     color: #fff;
     display: block;
-    padding: 22px 38px;
+    padding: 22px 20px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
@@ -1333,6 +1335,9 @@ p {
 .top_banner.about_us_inner_bg{
     background-image: url(../images/about_us_inner_bg.png);
 }
+.top_banner.about_us_inner_bg h2{
+    padding: 205px 0;
+}
 .about_inner{
     margin-top: 114px;
     overflow: hidden;
@@ -1379,25 +1384,210 @@ p {
 .about_inner.about .left_about_content .about_right_content .our_mission::after {
 	position: absolute;
 	content: "";
-	background-image: url(../images/about_us_inner_effect.png);
+	/*background-image: url(../images/about_us_inner_effect.png);
 	background-repeat: no-repeat;
-	background-position: left;
+	background-position: left;*/
 	width: 2px;
 	height: 103px;
 	left: 5%;
 	top: 30.5%;
+    background-color: #0087ff;
 }
 .about_inner.about .about_inner_right_image{
     overflow: hidden;
     padding-left: 68px;
+    height: 100%;
+    border-radius: 2px;
 }
 .about_inner.about .about_inner_right_image img{
-    width: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.why.why_bg{
+    background-color: #0087ff;
+    margin-top: 105px;
+}
+.why.why_bg h2{
+    padding-top: 60px;
+    padding-bottom: 17px;
+}
+.why.why_bg p{
+    color: #fff;
+    padding-bottom: 40px;
+}
+.why.why_bg .outer_border_area.bg_white{
+    background-color: #fff;
+}
+.brand.aboutus_page_brand{
+    margin-top: 0px;
+    background-color: #efefef;
 }
 
 /*********************************************
     Chevron About Us inner Page css end
 *********************************************/
+
+/*******************************************
+    Product Detail inner Page css start
+*******************************************/
+
+.top_banner.product_detail_inner_bg{
+    background-image: url(../images/product_detail_inner_bg.png);
+}
+.top_banner.product_detail_inner_bg h2{
+    padding: 220px 0;
+}
+
+/************************
+    Bearings sec start
+*************************/
+
+.Bear{
+    margin-top: 100px;
+    overflow: hidden;
+}
+.Bear .product_tab{
+    width: 100%;
+}
+.Bear .product_tab .big_product{
+    overflow: hidden;
+}
+.Bear .product_tab ul.btn_pro_nav{
+    margin-bottom: 0px;
+}
+.Bear .product_tab ul.btn_pro_nav li{
+    float: left;
+    width: 96px;
+    height: 78px;
+    background-color: #f3f3f3;
+    margin-right: 7px;
+}
+.btn_pro_nav li.product_active, .federal_tabs-menus li:hover a{
+    border: 1px solid #0067ff;
+} 
+.product_tab ul li a img{
+    padding: 6px 18px;
+}
+#one{
+    display: block;
+}
+.big_pro_active{
+    display: none;
+    float: none;
+    width: auto;
+    margin: 0px;
+}
+.Bear .product_tab .big_product img{
+    display: flex;
+    width: auto;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.Bear .product_price{
+    overflow: hidden;
+}
+.Bear .product_price h5{
+    font-size: 36px;
+    color: #212121;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 34px;
+}
+.Bear .product_price span{
+    color: #007aff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 7px;
+    display: flex;
+}
+.Bear .product_price span i{
+    font-size: 36px;
+    padding-right: 5px;
+}
+.Bear .product_price p{
+    font-size: 20px;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    line-height: 35px;
+}
+.Bear .product_des{
+    padding-top: 60px;
+}
+.Bear .product_des .product_des_tab{
+    overflow: hidden;
+}
+.Bear .product_des .product_des_tab ul.descr{
+    margin-bottom: 0px;
+}
+.Bear .product_des .product_des_tab ul.descr li{
+    float: left;
+    border: 1px solid #e6e6e6;
+    width: 346px;
+    height: 57px;
+    color: #fff;
+}
+.descr li.des_active, .federal_tabs-menus li:hover a{
+    background-color: #0087ff;
+}
+.descr li.des_active a, .federal_tabs-menus li:hover a{
+    color: #fff;
+}
+.product_des_tab ul li a{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 14px 0;
+    text-transform: uppercase;
+    color: #5f5f5f;
+}
+#des{
+    display: block;
+}
+.pro_info_active{
+    display: none;
+    float: none;
+    width: auto;
+    margin: 0px;
+}
+.Bear .product_des .product_des_big_tab{
+    overflow: hidden;
+    margin-top: 48px;
+}
+.Bear .product_des .product_des_big_tab .left_des_info{
+    overflow: hidden;
+}
+.Bear .product_des .product_des_big_tab .left_des_info p{
+    font-size: 15px;
+    color: #353535;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-bottom: 28px;
+}
+.Bear .product_des .product_des_big_tab .right_des_pro_pic{
+    overflow: hidden;
+}
+.Bear .product_des .product_des_big_tab .right_des_pro_pic img{
+    display: flex;
+    margin: 0px auto;
+    padding-bottom: 95px;
+}
+
+
+
+/************************
+    Bearings sec end
+*************************/
+
+/*******************************************
+    Product Detail inner Page css end
+*******************************************/
 
 
 /*** go to top ***/
@@ -1417,3 +1607,62 @@ p {
 
 
 /*** go to top ***/
+
+
+
+
+ #exzoom {
+        width: 400px;
+        /*height: 400px;*/
+    }
+.exzoom .exzoom_img_ul_outer .exzoom_img_ul {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	position: absolute;
+}
+.exzoom .exzoom_img_ul_outer .exzoom_img_ul li {
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	float: left;
+    width: 20%;
+}
+ul.exzoom_img_ul{
+    overflow: hidden;
+}
+ul.exzoom_img_ul li{
+    width: 20%;
+    float: left;
+    margin-right: 7px;
+}
+.exzoom .exzoom_img_ul_outer .exzoom_img_ul li img {
+	width: 100%;
+}
+.exzoom .exzoom_nav {
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+	left: 15px;
+}
+.exzoom .exzoom_nav .exzoom_nav_inner {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 0;
+}
+.exzoom .exzoom_nav .exzoom_nav_inner span {
+	border: 1px solid #ddd;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.exzoom .exzoom_nav .exzoom_nav_inner span img {
+	max-width: 100%;
+	max-height: 100%;
+	position: relative;
+}
+.exzoom .exzoom_btn {
+	position: relative;
+	margin: 0;
+}
